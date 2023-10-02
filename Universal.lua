@@ -242,6 +242,9 @@ local function GetClosest(Enabled,
     end
 
     return Closest
+    Instance.new("Highlight")
+    Highlight.Parent = Closest
+    
 end
 --[[local function AimAt(Hitbox,Sensitivity)
     if not Hitbox then return end
